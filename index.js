@@ -38,5 +38,13 @@ const untilNum = (num) => {
     }
 
 };
+//console.log(untilNum(5))
 
-console.log(untilNum(5))
+//Question 5
+const multiply = (arg1, arg2) => {
+    let result = arg1 * arg2
+    return result
+}
+// console.log(multiply(2, 4))
+// console.log(multiply(10, -5))
+// console.log(multiply(3, 7.5))
