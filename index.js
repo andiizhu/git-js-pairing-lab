@@ -48,3 +48,16 @@ const multiply = (arg1, arg2) => {
 // console.log(multiply(2, 4))
 // console.log(multiply(10, -5))
 // console.log(multiply(3, 7.5))
+
+
+//Question 6
+const add = (num1, num2) => {
+    if (num1 == num2) {
+        return (num1 + num2) * 3
+    } else {
+        return num1 + num2
+    }
+}
+
+console.log(add(3, 6))
+console.log(add(5, 5))
