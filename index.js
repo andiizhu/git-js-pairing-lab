@@ -18,5 +18,15 @@ const multiplesOfThree = () => {
     return;
 };
 
-multiplesOfThree()
+//multiplesOfThree()
 //No parameter name = no parameter or room for arguments
+
+//Question 3
+const multiplesOfThreeOrFive = () => {
+    for (i = 0; i <= 100; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            console.log(i)
+        }
+    } return;
+}
+//multiplesOfThreeOrFive()
