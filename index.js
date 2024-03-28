@@ -88,3 +88,18 @@ const betweenTwentyAndFourty = (num) => {
 // console.log(betweenTwentyAndFourty(21))     //return true
 // console.log(betweenTwentyAndFourty(39))     //return true
 // console.log(betweenTwentyAndFourty(40))    //return false
+
+//Question 10
+const largest = (n1, n2, n3) => {
+    if (n1 > n2 && n2 > n3) {
+        return n1
+    } else if (n1 < n2 && n2 > n3) {
+        return n2
+    } else if (n1 < n2 && n2 < n3) {
+        return n3
+    }
+
+};
+
+console.log(largest(41, 108, 86))
+
